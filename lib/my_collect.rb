@@ -17,7 +17,9 @@ def my_collect(array)
   collect 
 end
 
-# collection = ['ruby', 'javascript', 'python', 'objective-c']
-# students = ["Tim Jones", "Tom Smith", "Jim Campagno", "Marcie Martian", "Vane Rodriguez", "Laya Murphy", "Gabriel Casey"]
 
-# puts my_collect(students) {|student| "Welcome MR. #{student.split(" ").last.upcase} to class."}
+students = ["Tim Jones", "Tom Smith", "Jim Campagno", "Marcie Martian", "Vane Rodriguez", "Laya Murphy", "Gabriel Casey"]
+
+my_collect(students) do |student| 
+  "Welcome MR. #{student.split(" ").last.upcase} to class."
+end

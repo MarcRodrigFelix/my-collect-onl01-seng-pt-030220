@@ -1,4 +1,4 @@
-# My `#collect`
+ b     # My `#collect`
 
 ## Objectives
 

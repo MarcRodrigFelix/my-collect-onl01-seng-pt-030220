@@ -20,4 +20,4 @@ end
 # collection = ['ruby', 'javascript', 'python', 'objective-c']
 # students = ["Tim Jones", "Tom Smith", "Jim Campagno", "Marcie Martian", "Vane Rodriguez", "Laya Murphy", "Gabriel Casey"]
 
-# puts my_collect(students) {|student| "Welcome MR. #{student.split(" ").last.upcase} to class."}
+puts my_collect(students) {|student| "Welcome MR. #{student.split(" ").last.upcase} to class."}

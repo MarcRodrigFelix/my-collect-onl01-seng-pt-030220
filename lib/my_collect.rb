@@ -21,5 +21,5 @@ end
 students = ["Tim Jones", "Tom Smith", "Jim Campagno", "Marcie Martian", "Vane Rodriguez", "Laya Murphy", "Gabriel Casey"]
 
 my_collect(students) do |student| 
-  puts "Welcome MR. #{student.split(" ").last.upcase} to class."
+  "Welcome MR. #{student.split(" ").last.upcase} to class."
 end
